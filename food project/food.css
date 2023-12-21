@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo 2', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*css variables*/
+:root{
+    --navbar-height: 59px;
+}
+
+/*navigation bar*/
+#navbar{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+
+
+
+/* navigation bar logo and img*/
+}
+#logo img{
+    margin: 10px 20px ;
+    
+}
+#navbar img{
+    width: 80px;
+    
+}
+#navbar ul{
+    display: flex;
+    list-style-type: none; 
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* anchor tag*/
+
+#navbar ul li a{
+    display: block;
+    padding: 5px 27px;
+    text-decoration: none;
+    font-size: 19px;
+    
+    font-family: 'Baloo 2', cursive;
+    color: aliceblue;
+    margin: 4px;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border: 0spx inset whitesmoke;
+    border-radius: 15px;
+}
+
+/* background image*/
+
+.home{
+    display: flex ;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+   
+}
+.home::before{
+    content:'';
+    position: absolute;
+    background: url(./img1.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+
+h1{
+    font-size: 3.5rem;
+    color: aliceblue;
+    margin-top: 80px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.home p{
+    font-size: 1.3rem;
+    color: aliceblue;
+    justify-content: center;
+    padding: 2px 90px ;
+}
+
+.btn{
+    padding: 4px 20px;
+    font-size: 1.2rem;
+    font-family: 'Baloo 2', cursive;
+    border-radius: 30px;
+    border: 2px outset brown;
+    background-color: rgb(247, 196, 196);
+    color: rgb(148, 6, 6);
+}
+
+.btn:hover{
+    background-color: rgb(196, 119, 119);
+    color: rgb(243, 244, 243);
+    cursor: pointer;
+    
+}
+
+/* our services */
+
+.container{
+    margin-top: -30px;
+}
+.secondary{
+   
+    display: flex;
+    margin-top: 160px;
+    color: black;
+    font-size: 45px;
+    justify-content: center;
+
+}
+#services{
+    display: flex;
+    flex-direction: row;
+}
+#services .box{
+    border: 5px inset burlywood;
+    margin: 15px 10px;
+    border-radius: 23px;
+    background-color: rgb(249, 226, 226);
+    padding: 5px;
+    margin-bottom: 5px;
+   
+}
+#services .box:hover{
+   cursor: pointer;
+
+   
+}
+
+#services .box img{
+    height: 120px;
+    margin: auto;
+    display: block;
+    background-color: rgb(249, 226, 226)
+   
+}
+
+.third{
+    color: black;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 5px 0px;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 3px;
+}
+
+.center{
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-family: 'Baloo 2', cursive;
+    
+}
+.box p{
+    color: black;
+}
+
+/* our clients */
+
+ .fourth{
+    display: flex;
+    margin-top: 40px;
+    color: black;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.clients-services{
+    height: 344px;
+  
+}
+.clients-services::before{
+    content: '';
+    position: absolute;
+    background: url('./img2.jpg') no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    border: 0px outset rgb(247, 242, 242);
+
+}
+
+.client{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.client:hover{
+    cursor: pointer;
+}
+
+.client-items{
+    padding: 0px 45px;
+    margin-top: 35px;
+    
+
+}
+.client-items:hover{
+    cursor: pointer;
+    
+
+}
+
+.client-items img{
+    height: 150px;
+    width: auto;
+    background-color: aliceblue;
+    border: 0px outset white;
+}
+
+/* contact us */
+
+#contact{
+    position: relative;
+    margin: -40px 0px 5px 0px;
+}
+
+#contact::before{
+    content: '';
+    position: absolute;
+    background: url('./img3.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+
+}
+
+/* footer */
+
+footer{
+    background: black;
+    padding: 7px 20px;
+    margin-top: 10px;
+    
+}
+.center{
+    color: aliceblue;
+}
+
+/* form group */
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: 'Baloo 2', cursive;
+     font-size: 20px;
+     padding: 15px;
+    
+}
+
+.form label{
+    font-size: 1.3rem;
+}
+
+#contact-box input,
+#contact-box textarea{
+   width: 100%;
+   padding: 0.5rem;
+   font-size: 1.1rem;
+   margin: 3px;
+}
+
+
+
+
+
+

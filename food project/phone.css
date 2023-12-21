@@ -1,0 +1,124 @@
+/* navigation */
+
+#navbar{
+    flex-direction: column;
+    overflow: hidden;
+}
+#navbar ul li a{
+    font-size: 0.9rem;
+    padding: 0px 10px;
+}
+/* home services */
+
+.home{
+    height: 370px;
+    padding: 3px 29px;
+
+}
+.home:before{
+    height: 700px;
+    
+}
+.home p{
+    font-size: 13px;
+}
+
+.h-primery{
+    font-size: 25px;
+}
+#services{
+
+    flex-direction: column;
+    margin: 18px 0px;
+}
+
+#services .box p{
+    font-size: 0.7rem;
+    padding: 5px 5px;
+}
+#services .box img{
+    width: 136px;
+    padding: 15px;
+}
+/* #services{
+    flex-direction: column;
+    padding: 3px 20px;
+}
+#services{
+   margin: 15px 70px;
+   padding: 3px 90px;
+} */
+.box .third{
+    font-size: 25px ;
+}
+.box p{
+    font-size: 13px;
+}
+
+.secondary{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: -20px;
+   
+}
+/*  .container .secondary{
+    margin-left: -45px;
+    
+} */
+.btn{
+    font-size: 13px;
+}
+
+.client{
+    flex-wrap: wrap;
+    height: auto;
+
+   
+}
+.client-items{
+    padding: 20px;
+}
+
+.client img{
+    height: auto;
+    width: 70px;
+   
+}
+.client-services::before{
+    margin: auto;
+    overflow: hidden;
+    width: 900pxpx;
+}
+
+/* #services .box{
+    width: 250px;
+    margin: 10px -100px;
+ 
+    
+    
+} */
+/* .box img{
+    width: 120px;
+    height: auto;
+} */
+
+#contact-box .form{
+    width: 250px;
+    height: auto;
+}
+
+.fourth{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    font-size: 13px;
+    padding: 1px 2px;
+}
+footer{
+    padding-top: 1px;
+}
